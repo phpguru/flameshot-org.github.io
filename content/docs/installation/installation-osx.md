@@ -25,8 +25,12 @@ You can install Flameshot on [macOS](https://en.wikipedia.org/wiki/MacOS) using 
     > 1. Go to the Applications folder (Finder > Go > Applications, or Shift+Command+A)
     > 2. Right-Click on `flameshot.app` and choose `Open` from the context menu
     > 3. In the dialog click `Open`
+    > 4. Click `Done` - don't move to trash
+    > 5. Go to Settings > Privacy & Security and scroll down until you see Flameshot was blocked, and click `Open Anyway`
+    > 6. Next you'll see a dialog about Flameshot requesting permission to record the screen
+    > 7. Open Settings again, an you should be looking at the Screen & System Audio Recording section under Privacy & Security, where a toggle needs to be set to `On` for Flameshot. Toggle it on.
     >
-    > After following all those steps above, flameshot will open without problems in your Mac.
+    > After following all those steps above, you should see the Flameshot icon in the menubar and Flameshot will open without problems on your Mac.
 - Download DMG file:
     1. Navigate to [the release page on GitHub](https://github.com/flameshot-org/flameshot/releases)
     2. From the assets of the latest stable release, download the latest DMG file
